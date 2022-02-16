@@ -46,8 +46,8 @@
 		<Extension Category="windows.activatableClass.inProcessServer">
 			<InProcessServer>
 				<Path>WinRT.Host.dll</Path>
-				<ActivatableClass ActivatableClassId="MyUIComponents.CustomButton" ThreadingModel="both" />
-				<ActivatableClass ActivatableClassId="MyUIComponents.SampleFormControl" ThreadingModel="both" />
+				<ActivatableClass ActivatableClassId="WinUIComponentCs.CustomButton" ThreadingModel="both" />
+				<ActivatableClass ActivatableClassId="WinUIComponentCs.SampleFormControl" ThreadingModel="both" />
 			</InProcessServer>
 		</Extension>
 	</Extensions>
