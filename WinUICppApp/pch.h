@@ -24,3 +24,4 @@
 #include <winrt/Microsoft.UI.Dispatching.h>
 #include <wil/cppwinrt_helpers.h>
 #include <winrt/WinUIComponentCs.h>
+#include <winrt/WinUIComponentCs.WinUIComponentCs_XamlTypeInfo.h>

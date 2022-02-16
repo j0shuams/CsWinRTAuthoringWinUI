@@ -15,17 +15,17 @@ using Windows.Foundation;
 
 namespace WinUIComponentCs
 {
-    public sealed class TestButton : Button
+    public sealed class CustomButton : Button
     {
         public string Text { get; private set; }
         public bool OverrideEntered { get; set; }
 
-        public TestButton()
+        public CustomButton()
             : this("CustomButton")
         {
         }
 
-        public TestButton(string text)
+        public CustomButton(string text)
         {
             Text = text;
             Content = text;
