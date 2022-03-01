@@ -30,7 +30,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.1.0-20220215.0-CI-experimental" />
     <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22000.194" />
-    <PackageReference Include="WinUIComponentCs" Version="1.0.3" />
+    <PackageReference Include="WinUIComponentCs" Version="1.5.0" />
     <Manifest Include="$(ApplicationManifest)" />
   </ItemGroup>
 
