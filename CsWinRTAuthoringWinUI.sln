@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinUICsApp", "WinUICsApp\Wi
 EndProject
 Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "WinUICsAppWithWap (Package)", "WinUICsAppWithWap\WinUICsAppWithWap (Package)\WinUICsAppWithWap (Package).wapproj", "{74C2F705-871E-4833-A0C0-A6FE6FB34109}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinUICsAppWithWap", "WinUICsAppWithWap\WinUICsAppWithWap\WinUICsAppWithWap.csproj", "{E65F23DC-DC18-48F3-A3BE-25A8E7A14584}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinUICsAppWithWap", "WinUICsAppWithWap\WinUICsAppWithWap\WinUICsAppWithWap.csproj", "{E65F23DC-DC18-48F3-A3BE-25A8E7A14584}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,8 +61,8 @@ Global
 		{BCC816DC-0F01-4F0F-8506-DF6AFEFAEA92}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BCC816DC-0F01-4F0F-8506-DF6AFEFAEA92}.Release|arm64.ActiveCfg = Release|Any CPU
 		{BCC816DC-0F01-4F0F-8506-DF6AFEFAEA92}.Release|arm64.Build.0 = Release|Any CPU
-		{BCC816DC-0F01-4F0F-8506-DF6AFEFAEA92}.Release|x64.ActiveCfg = Release|Any CPU
-		{BCC816DC-0F01-4F0F-8506-DF6AFEFAEA92}.Release|x64.Build.0 = Release|Any CPU
+		{BCC816DC-0F01-4F0F-8506-DF6AFEFAEA92}.Release|x64.ActiveCfg = Release|x64
+		{BCC816DC-0F01-4F0F-8506-DF6AFEFAEA92}.Release|x64.Build.0 = Release|x64
 		{BCC816DC-0F01-4F0F-8506-DF6AFEFAEA92}.Release|x86.ActiveCfg = Release|Any CPU
 		{BCC816DC-0F01-4F0F-8506-DF6AFEFAEA92}.Release|x86.Build.0 = Release|Any CPU
 		{21E46C0A-5B48-4785-8DC1-7DAA600D1892}.Debug|Any CPU.ActiveCfg = Debug|x64
