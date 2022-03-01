@@ -10,7 +10,8 @@
     <PublishProfile>win10-$(Platform).pubxml</PublishProfile>
     <UseWinUI>true</UseWinUI>
     <EnablePreviewMsixTooling>true</EnablePreviewMsixTooling>
-    <CsWinRTAuthoring_SkipDependencies>false</CsWinRTAuthoring_SkipDependencies>
+    <!-- Uncomment below for unpackaged support -->
+    <!--<WindowsPackageType>None</WindowsPackageType>-->
   </PropertyGroup>
 
   <ItemGroup>
