@@ -15,6 +15,7 @@ namespace winrt::CppUnpackaged::implementation
     MainWindow::MainWindow()
     {
         InitializeComponent();
+        for (int i = 0; i < 100000000; i++) {}
     }
 
     int32_t MainWindow::MyProperty()
