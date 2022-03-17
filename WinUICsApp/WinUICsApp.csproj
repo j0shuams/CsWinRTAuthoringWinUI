@@ -25,12 +25,13 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <!--<Content Include="..\packages\WinUIComponentCs.1.5.1\lib\net6.0-windows10.0.19041\WinUIComponentCs\SampleFormControl.xaml" />-->
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.1.0-20220215.0-CI-experimental" />
     <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22000.194" />
-    <PackageReference Include="WinUIComponentCs" Version="1.5.1" />
+    <PackageReference Include="WinUIComponentCs" Version="2.0.0" />
     <Manifest Include="$(ApplicationManifest)" />
   </ItemGroup>
 

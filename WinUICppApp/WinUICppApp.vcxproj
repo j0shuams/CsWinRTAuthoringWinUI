@@ -144,6 +144,9 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\WinUIComponentCs\SampleformControl.xaml" />
+  </ItemGroup>
+  <ItemGroup>
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
     <Image Include="Assets\SplashScreen.scale-200.png" />
     <Image Include="Assets\Square150x150Logo.scale-200.png" />
@@ -167,7 +170,7 @@
     <Import Project="..\packages\Microsoft.Windows.SDK.BuildTools.10.0.22000.194\build\Microsoft.Windows.SDK.BuildTools.targets" Condition="Exists('..\packages\Microsoft.Windows.SDK.BuildTools.10.0.22000.194\build\Microsoft.Windows.SDK.BuildTools.targets')" />
     <Import Project="..\packages\Microsoft.Windows.ImplementationLibrary.1.0.211019.2\build\native\Microsoft.Windows.ImplementationLibrary.targets" Condition="Exists('..\packages\Microsoft.Windows.ImplementationLibrary.1.0.211019.2\build\native\Microsoft.Windows.ImplementationLibrary.targets')" />
     <Import Project="..\packages\Microsoft.WindowsAppSDK.1.1.0-20220215.0-CI-experimental\build\native\Microsoft.WindowsAppSDK.targets" Condition="Exists('..\packages\Microsoft.WindowsAppSDK.1.1.0-20220215.0-CI-experimental\build\native\Microsoft.WindowsAppSDK.targets')" />
-    <Import Project="..\packages\WinUIComponentCs.1.5.1\build\WinUIComponentCs.targets" Condition="Exists('..\packages\WinUIComponentCs.1.5.1\build\WinUIComponentCs.targets')" />
+    <Import Project="..\packages\WinUIComponentCs.1.5.3\build\WinUIComponentCs.targets" Condition="Exists('..\packages\WinUIComponentCs.1.5.3\build\WinUIComponentCs.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
@@ -180,6 +183,6 @@
     <Error Condition="!Exists('..\packages\Microsoft.Windows.ImplementationLibrary.1.0.211019.2\build\native\Microsoft.Windows.ImplementationLibrary.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Windows.ImplementationLibrary.1.0.211019.2\build\native\Microsoft.Windows.ImplementationLibrary.targets'))" />
     <Error Condition="!Exists('..\packages\Microsoft.WindowsAppSDK.1.1.0-20220215.0-CI-experimental\build\native\Microsoft.WindowsAppSDK.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.WindowsAppSDK.1.1.0-20220215.0-CI-experimental\build\native\Microsoft.WindowsAppSDK.props'))" />
     <Error Condition="!Exists('..\packages\Microsoft.WindowsAppSDK.1.1.0-20220215.0-CI-experimental\build\native\Microsoft.WindowsAppSDK.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.WindowsAppSDK.1.1.0-20220215.0-CI-experimental\build\native\Microsoft.WindowsAppSDK.targets'))" />
-    <Error Condition="!Exists('..\packages\WinUIComponentCs.1.5.1\build\WinUIComponentCs.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\WinUIComponentCs.1.5.1\build\WinUIComponentCs.targets'))" />
+    <Error Condition="!Exists('..\packages\WinUIComponentCs.1.5.3\build\WinUIComponentCs.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\WinUIComponentCs.1.5.3\build\WinUIComponentCs.targets'))" />
   </Target>
 </Project>
